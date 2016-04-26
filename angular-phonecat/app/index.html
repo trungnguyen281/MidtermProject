@@ -1,28 +1,50 @@
 <!doctype html>
-<html lang="en" ng-app="phonecatApp">
+<html lang="en" ng-app="">
 <head>
   <meta charset="utf-8">
-  <title>Google Phone Gallery</title>
+  <title>Trung Nguyen | LinkedIn</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="css/animations.css">
+  <!-- <link rel="stylesheet" href="css/animations.css"> -->
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="bower_components/angular-resource/angular-resource.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/animations.js"></script>
+ <!--  <script src="js/app.js"></script> -->
+ <!--  <script src="js/animations.js"></script> -->
   <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/services.js"></script>
+  <!-- <script src="js/filters.js"></script> -->
+<!--   <script src="js/services.js"></script> -->
 </head>
 <body>
+  <div id="top-card">
+    <div class="profile">
+      <img class="profile-img" src="img/profile.jpg" alt="profile-picture">
+      <div class="profile-overview">
+        <h2><strong>Trung Nguyen</strong></h2>
+        <h3>Student at University of Science</h3>
+        <span>Ho Chi Minh City, Viet Nam</span>
 
-  <div class="view-container">
-    <div ng-view class="view-frame"></div>
+      </div>
+    </div>
+    <div class="profile-extra">
+      
+    </div>
   </div>
-
+  <div id="main">
+    <div id="main-right">
+      
+    </div>
+    <div id="main-left">
+      <div class="card post">
+        <h2>Post</h2>
+      </div>
+      <div class="card background">
+        <h2>Background</h2>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
